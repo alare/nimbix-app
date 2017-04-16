@@ -1,6 +1,6 @@
-FROM nimbix/centos-base
+FROM nimbix/ubuntu-base
 
-RUN echo "chenfei app test2" > /tmp/chenfei.app
+RUN echo "chenfei app test2" > ~/chenfei.app
 
 ADD ./NAE/help.html /etc/NAE/help.html
 
